@@ -6,6 +6,7 @@
 |-----------|-------------|---------|
 | [Contraintes temporelles](#contraintes-temporelles) | Gestion du temps et des délais | Critique |
 | [Contraintes techniques](#contraintes-techniques) | Limitations et exigences techniques | Élevé |
+| [Contraintes financières](#contraintes-financières) | Budget et coûts d'exploitation | Critique |
 | [Contraintes organisationnelles](#contraintes-organisationnelles) | Processus et méthodes de travail | Élevé |
 | [Opportunités commerciales](#opportunités-commerciales) | Développement et croissance | Élevé |
 | [Opportunités techniques](#opportunités-techniques) | Innovations et améliorations | Moyen |
@@ -15,8 +16,7 @@
 
 ### Contraintes temporelles
 - Temps limité des gérants pour la gestion du site
-- Nécessité d'une mise en place rapide
-- Besoin de résultats visibles à court terme
+- Nécessité d'une base robuste et solide
 - Formation à intégrer dans un planning chargé
 - Maintenance régulière à prévoir
 
@@ -26,6 +26,34 @@
 - Besoins de sécurité et de protection des données
 - Nécessité d'une solution évolutive
 - Compatibilité avec les différents supports
+- Contraintes d'hébergement :
+  - Choix d'un VPS économique mais fiable
+  - Gestion de la bande passante
+  - Besoins en stockage pour les images
+  - Sauvegardes régulières
+- Base de données :
+  - Choix d'une solution légère
+  - Optimisation des requêtes
+  - Gestion de la montée en charge
+  - Plan de sauvegarde
+
+### Contraintes financières
+- Budget d'hébergement limité :
+  - VPS : recherche d'offres < 10€/mois
+  - Base de données : privilégier les solutions intégrées
+  - Nom de domaine : ~10-15€/an
+- Coûts de maintenance :
+  - Mises à jour de sécurité
+  - Sauvegardes
+  - Maintenance technique
+- Optimisation des ressources :
+  - Choix de technologies peu gourmandes
+  - Gestion efficace du stockage
+  - Compression des images
+- Évolution des coûts :
+  - Anticipation de la croissance
+  - Scalabilité progressive
+  - Maîtrise des coûts futurs
 
 ### Contraintes organisationnelles
 - Adaptation aux processus existants
@@ -49,6 +77,10 @@
 - Amélioration de l'efficacité
 - Collecte de données analytiques
 - Base pour évolutions futures
+- Optimisation des coûts :
+  - Utilisation de technologies open source
+  - Solutions d'hébergement évolutives
+  - Gestion efficace des ressources
 
 ### Opportunités marketing
 - Renforcement de l'image de marque
