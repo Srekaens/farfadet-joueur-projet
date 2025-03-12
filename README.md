@@ -12,6 +12,7 @@
 - Règles de Gestion
 - Composition des Équipes
 - Personas
+- Design & UI
 - Méthodologie Utilisée
 - Dictionnaire de Données
 
