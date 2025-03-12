@@ -10,11 +10,10 @@
 - [Objectifs](doc/objectifs.md)
 - [Problématiques](doc/problematiques.md)
 - Règles de Gestion
-- Composition des Équipes
-- Personas
+- Dictionnaire de Données
+- [Personas](doc/personas.md)
 - [Design & UI](doc/design-ui.md)
 - Méthodologie Utilisée
-- Dictionnaire de Données
 
 ### 2. Sécurité
 - Défense en Profondeur
