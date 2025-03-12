@@ -1,3 +1,80 @@
+# Les Enjeux du Projet
+
+## Synthèse des enjeux
+
+| Catégorie | Enjeu | Impact |
+|-----------|-------|--------|
+| [Visibilité](#visibilité-et-présence-en-ligne) | Amélioration de la présence en ligne | Critique |
+| [Gestion](#gestion-et-organisation) | Optimisation des processus | Élevé |
+| [Expérience utilisateur](#expérience-utilisateur) | Facilité d'utilisation | Élevé |
+| [Commercial](#enjeux-commerciaux) | Développement de l'activité | Élevé |
+| [Technique](#enjeux-techniques) | Pérennité et évolutivité | Moyen |
+| [Communautaire](#enjeux-communautaires) | Engagement et fidélisation | Moyen |
+
+## Enjeux Détaillés
+
+### Visibilité et présence en ligne
+- Amélioration du référencement naturel
+- Centralisation des informations
+- Cohérence de la communication
+- Vitrine attractive des produits et événements
+- Rayonnement au-delà des réseaux sociaux
+
+### Gestion et organisation
+- Simplification des processus administratifs
+- Centralisation des informations événementielles
+- Gain de temps sur les tâches répétitives
+- Meilleur suivi des activités
+- Organisation optimisée des événements
+
+### Expérience utilisateur
+- Interface intuitive pour tous les utilisateurs
+- Accès simplifié aux informations
+- Navigation fluide et efficace
+- Adaptation aux différents supports
+- Contact facilité avec la boutique
+
+### Enjeux commerciaux
+- Augmentation de la fréquentation
+- Diversification des sources de contact
+- Mise en valeur des produits
+- Développement de nouvelles opportunités
+- Fidélisation de la clientèle
+
+### Enjeux techniques
+- Solution évolutive et maintenable
+- Performance et disponibilité
+- Sécurité des données
+- Facilité de mise à jour
+- Intégration future de nouvelles fonctionnalités
+
+### Enjeux communautaires
+- Création d'une communauté active
+- Engagement des utilisateurs
+- Partage d'expériences
+- Animation des événements
+- Développement du bouche-à-oreille
+
+## Impacts attendus
+
+### Court terme
+- Meilleure visibilité en ligne
+- Simplification de la gestion des événements
+- Communication plus efficace
+- Gain de temps administratif
+
+### Moyen terme
+- Augmentation de la fréquentation
+- Développement de la communauté
+- Optimisation des processus
+- Autonomie des gérants
+
+### Long terme
+- Position renforcée sur le marché
+- Communauté active et engagée
+- Évolution continue des services
+- Croissance durable de l'activité
+
 # Enjeux
 
 ---
