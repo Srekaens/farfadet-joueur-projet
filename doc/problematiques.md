@@ -11,6 +11,8 @@
 | [Communication](#communication-et-visibilité) | Dépendance aux réseaux sociaux | Limitation de l'audience |  
 | [Formation](#formation-et-accompagnement) | Besoin d'autonomie | Nécessité de formation |  
 | [Engagement utilisateur](#engagement-utilisateur) | Réticence à l'inscription | Frein à l'utilisation des fonctionnalités |
+| [Gestion des événements](#gestion-des-événements) | Organisation et suivi | Élevé |
+| [Système de réservation](#système-de-réservation) | Complexité et risques | Élevé |
 
 ## Problématiques Principales
 
@@ -65,6 +67,14 @@
 - Équilibre entre fonctionnalités accessibles avec/sans compte
 - Simplicité du processus d'interaction avec les événements
 
+### Gestion des événements
+- Organisation et suivi
+- Élevé
+
+### Système de réservation
+- Complexité et risques
+- Élevé
+
 ## Contraintes Spécifiques
 
 ### Contraintes temporelles
@@ -106,3 +116,53 @@
 - Expansion des fonctionnalités premium pour les utilisateurs inscrits
 - Autonomie complète des gérants
 - Développement d'une communauté active
+
+## Système de réservation
+
+### Problématiques identifiées
+
+#### Complexité technique
+- Un système de réservation complet nécessiterait :
+  - Une authentification des utilisateurs
+  - Une base de données des réservations
+  - Un système de gestion des places disponibles
+  - Un mécanisme de confirmation/annulation
+  - Une protection contre les réservations multiples
+
+#### Risques de sécurité
+- Vulnérabilité aux attaques par spam de formulaires
+- Nécessité de protéger les données personnelles
+- Risque de réservations malveillantes ou factices
+- Besoin de validation des adresses email
+
+#### Contraintes d'utilisation
+- Obligation de créer un compte pour les utilisateurs
+- Complexité du processus de réservation
+- Besoin de gérer les annulations
+- Nécessité d'un suivi constant des réservations
+
+#### Impact sur l'expérience utilisateur
+- Friction additionnelle pour participer aux événements
+- Frustration potentielle lors de la création de compte
+- Complexité du processus de réservation
+- Besoin de gérer les notifications et rappels
+
+### Solutions proposées
+
+#### Court terme
+- Mise en place d'un système de contact par email :
+  - Lien direct vers l'email pour chaque événement
+  - Formulaire de contact simple et efficace
+  - Communication directe avec le gérant
+
+#### Moyen terme
+- Optimisation du processus de communication :
+  - Templates d'emails prédéfinis
+  - Système de suivi des demandes
+  - Documentation des procédures
+
+#### Long terme
+- Évaluation continue des besoins :
+  - Analyse du volume de demandes
+  - Retours des utilisateurs
+  - Adaptation selon l'évolution de l'activité
