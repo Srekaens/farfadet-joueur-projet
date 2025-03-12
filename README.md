@@ -12,7 +12,7 @@
 - Règles de Gestion
 - Composition des Équipes
 - Personas
-- Design & UI
+- [Design & UI](doc/design-ui.md)
 - Méthodologie Utilisée
 - Dictionnaire de Données
 
