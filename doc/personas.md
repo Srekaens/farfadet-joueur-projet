@@ -11,6 +11,8 @@
 
 ## Introduction aux personas
 
+- [Lien vers les personas](/doc/img/personas.jpg)
+
 Les personas sont des archétypes d'utilisateurs créés pour guider nos décisions de conception et de développement. Ils nous permettent de :
 - Comprendre les besoins et comportements des utilisateurs cibles
 - Adapter l'architecture technique aux usages réels
