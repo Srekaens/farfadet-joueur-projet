@@ -34,10 +34,11 @@
 
 ### Enjeux commerciaux
 - Augmentation de la fréquentation
-- Diversification des sources de contact
-- Mise en valeur des produits
+- Accessibilité des informations sans passer par les reseaux sociaux
+- Mise en valeur de la boutique sur internet 
 - Développement de nouvelles opportunités
 - Fidélisation de la clientèle
+- Meilleur referencement naturel
 
 ### Enjeux techniques
 - Solution évolutive et maintenable
@@ -47,9 +48,8 @@
 - Intégration future de nouvelles fonctionnalités
 
 ### Enjeux communautaires
-- Création d'une communauté active
+- Donenr un nouvel outil pour renforcer l'engouement de communauté du farfadet joueur
 - Engagement des utilisateurs
-- Partage d'expériences
 - Animation des événements
 - Développement du bouche-à-oreille
 
@@ -59,19 +59,20 @@
 - Meilleure visibilité en ligne
 - Simplification de la gestion des événements
 - Communication plus efficace
-- Gain de temps administratif
 
 ### Moyen terme
 - Augmentation de la fréquentation
 - Développement de la communauté
-- Optimisation des processus
-- Autonomie des gérants
+- Posséder un calendrier regroupement tout les évenements
+- Avoir une vitrine attractive qui donne envie de rejoindre la communauté et de passer par le farfadet joueur pour des evenements
+
 
 ### Long terme
 - Position renforcée sur le marché
 - Communauté active et engagée
+- Croissance du calendrier d'evenements
 - Évolution continue des services
-- Croissance durable de l'activité
+
 
 # Enjeux
 
