@@ -16,22 +16,20 @@
 ### Visibilité et présence en ligne
 - Amélioration du référencement naturel
 - Centralisation des informations
-- Cohérence de la communication
-- Vitrine attractive des produits et événements
+- Vitrine attractive des produits, événements et services
 - Rayonnement au-delà des réseaux sociaux
 
 ### Gestion et organisation
-- Simplification des processus administratifs
+
 - Centralisation des informations événementielles
-- Gain de temps sur les tâches répétitives
 - Meilleur suivi des activités
 - Organisation optimisée des événements
 
 ### Expérience utilisateur
-- Interface intuitive pour tous les utilisateurs
+- Interface intuitive pour la gestion des evenements
 - Accès simplifié aux informations
-- Navigation fluide et efficace
-- Adaptation aux différents supports
+- Navigation fluide et efficace 
+- Adaptation aux différents supports ( mobile first)
 - Contact facilité avec la boutique
 
 ### Enjeux commerciaux
