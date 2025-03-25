@@ -32,7 +32,7 @@ Polices similaires à la typographie du logo :
 ## Ressources de Conception
 
 ### Zoning
-> [Lien Figma vers le zoning]() (à venir)
+> [Lien Figma vers le zoning](https://www.figma.com/design/d8p0ScZp4Qv4dR8Oo5RjJy/FJ_Zoning?m=auto&t=TL7AwXjqSLOsQc34-6)
 
 Le zoning est la première étape de conception qui définit les zones principales de l'interface. Cette étape est cruciale car elle :
 - Structure l'information de manière logique
@@ -41,7 +41,7 @@ Le zoning est la première étape de conception qui définit les zones principal
 - Pose les bases de la navigation
 
 ### Wireframes
-> [Lien Figma vers les wireframes]() (à venir)
+> [Lien Figma vers les wireframes](https://www.figma.com/design/rS8d5KcbFbnYnxUGBItaoo/FJ_Wireframe?m=auto&t=TL7AwXjqSLOsQc34-6)
 
 Les wireframes représentent la structure détaillée de chaque page, sans couleurs ni images. Ils permettent de :
 - Visualiser le placement précis des éléments
