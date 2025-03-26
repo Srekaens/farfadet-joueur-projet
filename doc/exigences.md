@@ -73,19 +73,20 @@
 
 ## Évolutions futures
 
-### Phase 1 (MVP)
+### Phase 1 
 - Interface d'administration basique
 - Gestion des événements essentielle
 - Présentation des produits statique
 - Système de contact par email
 
 ### Phase 2
-- Amélioration de l'interface utilisateur
+
 - Automatisation des tâches répétitives
-- Système de notification avancé
 - Analytics et rapports
 
 ### Phase 3
+- Système de notification avancé
 - Fonctionnalités communautaires
 - API pour intégrations futures
+- interface utilisateur
 
