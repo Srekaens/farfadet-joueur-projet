@@ -16,9 +16,10 @@
 
 ### Contraintes temporelles
 - Temps limité pour la gestion du site pour le gérant et son équipe
-- Nécessité d'une base robuste et solide et évolutive 
+- Besoin d'une interface épuré afin de gagner du temps sur la gestion des evenements
 
 ### Contraintes techniques
+- Nécessité d'une base robuste solide et évolutive 
 - Infrastructure technique existante à respecter
 - Limites des ressources disponibles
 - Besoins de sécurité et de protection des données
