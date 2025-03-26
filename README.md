@@ -9,7 +9,7 @@
 - [Exigences](doc/exigences.md)
 - [Objectifs](doc/objectifs.md)
 - [Problématiques](doc/problematiques.md)
-- Règles de Gestion
+- [Règles de Gestion](doc/regles-gestion.md)
 - Dictionnaire de Données
 - [Personas](doc/personas.md)
 - [Design & UI](doc/design-ui.md)
