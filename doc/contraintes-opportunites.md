@@ -19,14 +19,12 @@
 - Besoin d'une interface épuré afin de gagner du temps sur la gestion des evenements
 
 ### Contraintes techniques
-- Nécessité d'une base robuste solide et évolutive 
-- Infrastructure technique existante à respecter
+- Nécessité d'une base robuste et évolutive 
 - Limites des ressources disponibles
-- Besoins de sécurité et de protection des données
-- Nécessité d'une solution évolutive
-- Compatibilité avec les différents supports
+- Sécurisation contre les menaces externes 
+- Compatibilité avec les différents supports, mobile first
 - Contraintes d'hébergement :
-  - Choix d'un VPS économique mais fiable
+  - Choix d'un VPS économique et fiable
   - Gestion de la bande passante
   - Besoins en stockage pour les images
   - Sauvegardes régulières
