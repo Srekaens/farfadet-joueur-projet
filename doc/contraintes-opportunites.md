@@ -20,33 +20,35 @@
 
 ### Contraintes techniques
 - Nécessité d'une base robuste et évolutive 
-- Limites des ressources disponibles
 - Sécurisation contre les menaces externes 
-- Compatibilité avec les différents supports, mobile first
+- Compatibilité avec les différents supports
+- Mobile first
+
 - Contraintes d'hébergement :
   - Choix d'un VPS économique et fiable
-  - Gestion de la bande passante
   - Besoins en stockage pour les images
-  - Sauvegardes régulières
+
 - Base de données :
   - Choix d'une solution légère
   - Optimisation des requêtes
-  - Gestion de la montée en charge
-  - Plan de sauvegarde
+  - Sauvegardes régulières
 
 ### Contraintes financières
 - Budget d'hébergement limité :
-  - VPS : recherche d'offres < 10€/mois
-  - Base de données : privilégier les solutions intégrées
+  - VPS : recherche d'offres < 10€/mois 
+  - Base de données : privilégier les solutions gratuites
   - Nom de domaine : ~10-15€/an
+
 - Coûts de maintenance :
   - Mises à jour de sécurité
   - Sauvegardes
   - Maintenance technique
+
 - Optimisation des ressources :
   - Choix de technologies peu gourmandes
   - Gestion efficace du stockage
   - Compression des images
+  
 - Évolution des coûts :
   - Anticipation de la croissance
   - Scalabilité progressive
