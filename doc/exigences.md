@@ -1,3 +1,61 @@
+# Exigences Fonctionnelles
+
+## 1. Gestion des Événements
+- Le système doit permettre la création et la modification d'événements via l'interface administrateur
+- Le système doit permettre l'ajout d'images après la publication d'un événement
+- Le système doit permettre la catégorisation des événements par type d'activité
+- Le système doit permettre la visualisation du calendrier d'événements sans inscription
+- Le système doit permettre la gestion des capacités d'accueil pour chaque événement
+
+## 2. Interface Administrateur
+- Le système doit permettre la gestion complète des événements (création, modification, suppression)
+- Le système doit fournir un tableau de bord avec les statistiques de participation
+- Le système doit permettre la gestion des droits d'accès des administrateurs
+- Le système doit fournir un système de logs détaillé des actions administratives
+- Le système doit permettre la gestion des catégories d'événements
+
+## 3. Gestion des Utilisateurs
+- Le système doit permettre l'inscription des utilisateurs avec validation par email
+- Le système doit permettre la récupération de mot de passe via email
+- Le système doit permettre la gestion des profils utilisateurs
+- Le système doit permettre l'accès aux fonctionnalités sans inscription pour la consultation
+- Le système doit permettre la gestion des préférences de notification
+
+## 4. Système de Notifications
+- Le système doit envoyer des notifications automatiques pour les rappels d'événements
+- Le système doit permettre la personnalisation des notifications par utilisateur
+- Le système doit envoyer des confirmations d'inscription aux événements
+- Le système doit notifier les modifications d'événements aux participants
+- Le système doit permettre la configuration des canaux de notification (email, site)
+
+## 5. Interface Publique
+- Le système doit fournir une interface responsive (mobile first)
+- Le système doit permettre la recherche et le filtrage des événements
+- Le système doit afficher les informations essentielles de la boutique
+- Le système doit permettre un accès rapide aux informations sans inscription
+- Le système doit fournir une navigation intuitive entre les sections
+
+## 6. Gestion des Inscriptions
+- Le système doit permettre l'inscription aux événements via l'interface publique
+- Le système doit vérifier automatiquement les conflits d'horaires
+- Le système doit gérer les listes d'attente en cas de places limitées
+- Le système doit permettre la désinscription jusqu'à 12h avant l'événement
+- Le système doit fournir un historique des inscriptions par utilisateur
+
+## 7. Intégration et Communication
+- Le système doit permettre le partage des événements sur les réseaux sociaux
+- Le système doit fournir des liens d'intégration pour les calendriers externes
+- Le système doit permettre la synchronisation avec les réseaux sociaux
+- Le système doit fournir des statistiques de partage et d'engagement
+- Le système doit permettre la gestion des commentaires sur les événements
+
+## 8. Sécurité et Performance
+- Le système doit assurer la sécurisation des données utilisateurs
+- Le système doit permettre l'accès sécurisé à l'interface administrateur
+- Le système doit optimiser les temps de chargement des pages
+- Le système doit gérer les sessions utilisateurs de manière sécurisée
+- Le système doit fournir une protection contre les attaques courantes
+
 # Les Exigences Fonctionnelles du Projet
 
 ## Synthèse des exigences  
