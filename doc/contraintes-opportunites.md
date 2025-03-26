@@ -15,10 +15,8 @@
 ## Contraintes Détaillées
 
 ### Contraintes temporelles
-- Temps limité des gérants pour la gestion du site
-- Nécessité d'une base robuste et solide
-- Formation à intégrer dans un planning chargé
-- Maintenance régulière à prévoir
+- Temps limité pour la gestion du site pour le gérant et son équipe
+- Nécessité d'une base robuste et solide et évolutive 
 
 ### Contraintes techniques
 - Infrastructure technique existante à respecter
