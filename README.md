@@ -13,7 +13,7 @@
 - Dictionnaire de Données
 - [Personas](doc/personas.md)
 - [Design & UI](doc/design-ui.md)
-- Méthodologie Utilisée
+- [Méthodologie Utilisée](doc/methodologies.md)
 - [Benchmarks](doc/benchmarks.md)
 
 ### 2. Sécurité
