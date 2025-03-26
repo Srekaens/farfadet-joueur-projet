@@ -1,70 +1,63 @@
-# Les Problématiques du Projet
+# Les Problématiques
 
-## Synthèse des problématiques  
-
-| Catégorie | Problématique | Impact |  
-|-----------|---------------|---------|  
-| [Gestion événementielle](#gestion-événementielle) | Organisation dispersée | Difficulté de suivi et de visibilité |  
-| [Interface utilisateur](#interface-utilisateur) | Complexité potentielle | Risque de rejet par les gérants |  
-| [Gestion des produits](#gestion-des-produits) | Saisie manuelle chronophage | Frein à l'adoption du site |  
-| [Aspects techniques](#aspects-techniques) | Évolutivité et maintenance | Contraintes d'architecture |  
-| [Communication](#communication-et-visibilité) | Dépendance aux réseaux sociaux | Limitation de l'audience |  
-| [Formation](#formation-et-accompagnement) | Besoin d'autonomie | Nécessité de formation |  
-| [Engagement utilisateur](#engagement-utilisateur) | Réticence à l'inscription | Frein à l'utilisation des fonctionnalités |
-| [Gestion des événements](#gestion-des-événements) | Organisation et suivi | Élevé |
-| [Système de réservation](#système-de-réservation) | Complexité et risques | Élevé |
-
-## Problématiques Principales
-
-### Gestion événementielle
-- Absence de système centralisé pour les evenements
-- Difficulté de catégorisation des différents types d'événements
-- Manque de visibilité sur les événements à venir
-- Besoin de voir les evenements sans inscription
-
-### Interface utilisateur
-- Nécessité d'une interface simple et intuitive
-- Equilibre entre fonctionnalités et simplicité d'utilisation
-- Adaptation aux différents types d'utilisateurs (gérants/clients)
-- Faciliter l'accès aux fonctionnalités sans inscription obligatoire
-
-### Aspects techniques
-- Sécurisation des données clients
-- Performance et temps de chargement
-- Maintenance et mises à jour du système
-- Accès sans authentification lourde
-
-### Communication et visibilité
-- Forte dépendance aux réseaux sociaux
-- Manque de contenu visuel
-- Besoin d'améliorer le référencement
-- Difficulté à toucher une nouvelle audience
-
-### Formation et accompagnement
-- Réticence initiale face au numérique
-- Besoin de formation des gérants
-- Nécessité d'un support technique 
-- Documentation d'utilisation
-
-### Engagement utilisateur
-- Manque de fonctionnalités attractives justifiant une inscription
-- Besoin d'accès rapide aux informations essentielles
-- Simplicité du processus d'interaction avec les événements
-
-## Contraintes Spécifiques
-
-### Contraintes temporelles
-- Temps limité des gérants pour la gestion
-- Nécessité d'une mise en place progressive
-- Formation et accompagnement à intégrer
-
-### Contraintes techniques
-
-- Sécurité des données
-- Gestion des accès anonymes sécurisée
-
-### Contraintes organisationnelles
-- Habitudes de travail existantes
-- Résistance au changement
-- Processus de décision
-- Gestion des priorités
+<table>
+    <tr>
+        <td align="center">Problématiques</td>
+        <td align="center">Problèmes</td>
+        <td align="center">Solution</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Gestion des Événements</strong></td>
+        <td align="center">L'organisation des événements est actuellement dispersée et accessible uniquement aux personnes inscrites et connectées aux réseaux sociaux de la boutique</td>
+        <td align="center">Centraliser la gestion des événements dans une plateforme unique avec un calendrier interactif</td>
+    </tr>
+    <tr>
+        <td align="center">Manque de visibilité sur les événements à venir</td>
+        <td align="center">Créer une interface publique intuitive pour la consultation des événements</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Interface Administrateur</strong></td>
+        <td align="center">Complexité de la gestion des contenus pour les administrateurs</td>
+        <td align="center">Développer une interface d'administration intuitive avec des outils de gestion simplifiés</td>
+    </tr>
+    <tr>
+        <td align="center">Difficulté à suivre les statistiques de consultation</td>
+        <td align="center">Implémenter un tableau de bord avec des indicateurs de visibilité et d'engagement</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Communication</strong></td>
+        <td align="center">Dépendance excessive aux réseaux sociaux pour la communication</td>
+        <td align="center">Créer un système de partage intégré pour les réseaux sociaux</td>
+    </tr>
+    <tr>
+        <td align="center">Manque de coordination dans la diffusion des informations</td>
+        <td align="center">Mettre en place un système de communication centralisé avec différents canaux</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Expérience Utilisateur</strong></td>
+        <td align="center">Difficulté d'accès aux informations sur les événements</td>
+        <td align="center">Permettre un accès direct et intuitif au calendrier des événements</td>
+    </tr>
+    <tr>
+        <td align="center">Interface non adaptée aux différents supports</td>
+        <td align="center">Développer une interface responsive avec une approche mobile-first</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Sécurité et Données</strong></td>
+        <td align="center">Protection des données de l'administration</td>
+        <td align="center">Implémenter des mesures de sécurité robustes pour l'interface administrateur</td>
+    </tr>
+    <tr>
+        <td align="center">Gestion sécurisée des accès administrateur</td>
+        <td align="center">Mettre en place un système d'authentification sécurisé avec gestion des droits</td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center"><strong>Performance</strong></td>
+        <td align="center">Temps de chargement lent des pages et des images</td>
+        <td align="center">Optimiser les performances avec mise en cache et compression des ressources</td>
+    </tr>
+    <tr>
+        <td align="center">Difficulté à gérer les pics de charge</td>
+        <td align="center">Implémenter une architecture scalable avec gestion de charge</td>
+    </tr>
+</table>
