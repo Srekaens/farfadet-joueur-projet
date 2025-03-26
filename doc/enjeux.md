@@ -19,7 +19,8 @@
 - Interface administrateur pour gérer les differents aspects du site 
 - Organisation optimisée des événements
 - Centralisation des informations événementielles dans un calendrier
-- Gestion des activitées par catégories
+- Organisation des activitées par catégories 
+- Gestion des evenements ( modifier , ajouter image après publication etc)
 - Mail de récupération pour récupérer les mots de passe
 
 
