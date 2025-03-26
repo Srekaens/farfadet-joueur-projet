@@ -14,49 +14,32 @@
 
 ### Interface d'administration
 - Tableau de bord intuitif avec vue d'ensemble des activités
-- Gestion des produits mis en avant :
-  - Ajout/modification/suppression des produits phares
-  - Upload et gestion des images
-  - Système de catégorisation simple
-  - Gestion des descriptions et prix
-- Gestion des événements :
-  - Création et édition d'événements
-  - Définition des capacités et horaires
-  - Gestion des catégories d'événements
-  - Consultation des demandes de participation reçues par email
+
 
 ### Gestion des événements
 - Calendrier interactif des événements
-- Catégorisation (tournois, anniversaires, événements spéciaux)
-- Système de récurrence pour les événements réguliers
-- Définition des capacités
-- Lien de contact direct pour chaque événement
-- Notifications automatiques pour :
-  - Modifications d'événements
-  - Rappels de publication
+- Organisation par catégories d'événements( annievrsaires, conventions, à la boutique, en exterieur)
+- Système de récurrence pour les événements réguliers ( en fontion d'un theme séléctionné elements par defauts ?)
+- Image par defaut pour les evenements et proposition d'upload d'images 
+- Création et édition d'événements
+- Gestion en fonction des horaires et dates
+- Consultation des demandes de participation reçues par email ?? 
 
-### Gestion des produits
-- Interface de mise en avant des produits phares
-- Système de rotation des produits en vitrine
-- Gestion des images et descriptions
-- Catégorisation simple et efficace
-- Indication de disponibilité
-- Mise à jour rapide des informations
 
 ### Interface publique
 - Page d'accueil attractive :
   - Mise en avant des prochains événements
-  - Présentation des produits phares
-  - Actualités récentes
+  - Présentation des produits phares de la boutique
+  - Actualités récentes mise en avant dans la page d'accueil
 - Calendrier des événements :
   - Vue mensuelle/hebdomadaire
   - Filtres par catégorie
   - Détails des événements
-  - Bouton de contact direct pour chaque événement
+  
 - Vitrine des produits :
   - Présentation claire et attractive
-  - Filtres par catégorie
   - Informations essentielles
+
 - Présentation de l'entreprise :
   - Histoire et valeurs
   - Équipe
@@ -65,17 +48,15 @@
 
 ### Communication et marketing
 - Intégration avec les réseaux sociaux
-- Partage facile des événements
-- Newsletter pour les événements à venir
+- Partage facile des événements ( metadonnées?)
 - Formulaire de contact général
-- Liens de contact directs et contextuels
 
 ## Contraintes techniques
 
 ### Performance
 - Temps de chargement rapide
 - Interface réactive
-- Optimisation mobile
+- Optimisation mobile first
 - Gestion efficace des images
 
 ### Sécurité
