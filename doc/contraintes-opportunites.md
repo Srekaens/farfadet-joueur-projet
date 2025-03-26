@@ -53,26 +53,23 @@
   - Maîtrise des coûts futurs
 
 ### Contraintes organisationnelles
-- Adaptation aux processus existants
-- Gestion du changement
-- Maintien des activités courantes
-- Formation des utilisateurs
+
 - Documentation des procédures
 
 ## Opportunités Identifiées
 
 ### Opportunités commerciales
-- Élargissement de la base client
+- Élargissement de la base client ??
 - Nouveaux canaux de communication
 - Amélioration de la visibilité
-- Développement des ventes
+- Attractivité des evenements
 - Fidélisation accrue
 
 ### Opportunités techniques
 - Modernisation des outils
 - Automatisation des processus
 - Amélioration de l'efficacité
-- Collecte de données analytiques
+- Collecte de données analytiques ?
 - Base pour évolutions futures
 - Optimisation des coûts :
   - Utilisation de technologies open source
@@ -82,19 +79,18 @@
 ### Opportunités marketing
 - Renforcement de l'image de marque
 - Meilleur référencement naturel
-- Communication multicanal
 - Engagement communautaire
 - Mesure des performances
 
 ## Stratégies d'exploitation
 
 ### Court terme
-- Mise en place des fondamentaux
-- Formation initiale des équipes
-- Premiers résultats visibles
-- Communication sur les changements
+
+- Promotion du site à travers les réseaux pour informer la communauté actuelle et leur donner un lien qu'il pourront partager afin de créer un premier engouement
+
 
 ### Moyen terme
+- Communication sur les changements du site 
 - Optimisation des processus
 - Développement des fonctionnalités
 - Analyse des retours utilisateurs
