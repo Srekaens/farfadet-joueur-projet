@@ -25,20 +25,19 @@
 
 ### Visibilité et présence en ligne
 - Rayonnement au-delà des réseaux sociaux
-- Gestion d'un calendrier d'evenements
+- Disponibilité sans inscription sur le site ou un réseau d'un calendrier d'evenements
 - Amélioration du référencement naturel
 - Vitrine attractive des produits, événements et services
 
 
 ### Expérience utilisateur
-- Interface intuitive pour la gestion des evenements
-- Accès simplifié aux informations
+- Interface intuitive pour voir les evenements proposés par la boutique
 - Navigation fluide et efficace 
 - Adaptation aux différents supports ( mobile first)
 - Contact facilité avec la boutique
 
 ### Enjeux commerciaux
-- Augmentation de la fréquentation
+- Augmentation de la fréquentation 
 - Accessibilité des informations sans passer par les reseaux sociaux
 - Mise en valeur de la boutique sur internet 
 - Développement de nouvelles opportunités
@@ -46,17 +45,16 @@
 - Meilleur referencement naturel
 
 ### Enjeux techniques
+- Interface Administrateur 
 - Solution évolutive et maintenable
 - Performance et disponibilité
 - Sécurité des données
 - Facilité de mise à jour
-- Intégration future de nouvelles fonctionnalités
+- Prévoir l'intégration future de nouvelles fonctionnalités
 
 ### Enjeux communautaires
-- Donner un nouvel outil pour renforcer l'engouement de communauté vis-à-vis du farfadet joueur
-- Engagement des utilisateurs
-- Centraliser les données pourrait faire du site uen reference et un outil à part entière pour la communauté 
-- Développement du bouche-à-oreille
+- Donner un nouvel outil pour renforcer l'engagement de la communauté
+- Faire du site une reference et un outil à part entière pour la communauté 
 
 ## Impacts attendus
 
