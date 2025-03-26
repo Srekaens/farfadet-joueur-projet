@@ -16,12 +16,12 @@
 
 ### Gestion et organisation
 
+- Interface administrateur pour gérer les differents aspects du site 
 - Organisation optimisée des événements
 - Centralisation des informations événementielles dans un calendrier
 - Gestion des activitées par catégories
-- Gestion de l'interface administrateur avec mail de récupération 
-- Dashbord permettant de donner à l'administreur de confier des droits d'administration
-- Ajout des bases permettant la gestion d'utilisateurs avec un espace dédié (pour la scalabilité) 
+- Mail de récupération pour récupérer les mots de passe
+
 
 ### Visibilité et présence en ligne
 - Rayonnement au-delà des réseaux sociaux
