@@ -26,16 +26,17 @@
 
 ### Visibilité et présence en ligne
 - Rayonnement au-delà des réseaux sociaux
-- Disponibilité sans inscription sur le site ou un réseau d'un calendrier d'evenements
 - Amélioration du référencement naturel
-- Vitrine attractive des produits, événements et services
+- Disponibilité sans inscriptions du calendrier d'evenements
+- Vitrine attractive des services et produits du magasin
 
 
 ### Expérience utilisateur
-- Interface intuitive pour voir les evenements proposés par la boutique
-- Navigation fluide et efficace 
+- Interface intuitive pour naviguer entre les evenements (et en proposer ?)
+- Navigation fluide et intuitive 
 - Adaptation aux différents supports ( mobile first)
 - Contact facilité avec la boutique
+- Rapide comprehension des produits vendus par la boutique
 
 ### Enjeux commerciaux
 - Augmentation de la fréquentation 
