@@ -13,17 +13,22 @@
 
 ## Enjeux Détaillés
 
-### Visibilité et présence en ligne
-- Amélioration du référencement naturel
-- Centralisation des informations
-- Vitrine attractive des produits, événements et services
-- Rayonnement au-delà des réseaux sociaux
 
 ### Gestion et organisation
 
-- Centralisation des informations événementielles
-- Meilleur suivi des activités
 - Organisation optimisée des événements
+- Centralisation des informations événementielles dans un calendrier
+- Gestion des activitées par catégories
+- Gestion de l'interface administrateur avec mail de récupération 
+- Dashbord permettant de donner à l'administreur de confier des droits d'administration
+- Ajout des bases permettant la gestion d'utilisateurs avec un espace dédié (pour la scalabilité) 
+
+### Visibilité et présence en ligne
+- Rayonnement au-delà des réseaux sociaux
+- Gestion d'un calendrier d'evenements
+- Amélioration du référencement naturel
+- Vitrine attractive des produits, événements et services
+
 
 ### Expérience utilisateur
 - Interface intuitive pour la gestion des evenements
@@ -48,9 +53,9 @@
 - Intégration future de nouvelles fonctionnalités
 
 ### Enjeux communautaires
-- Donenr un nouvel outil pour renforcer l'engouement de communauté du farfadet joueur
+- Donner un nouvel outil pour renforcer l'engouement de communauté vis-à-vis du farfadet joueur
 - Engagement des utilisateurs
-- Animation des événements
+- Centraliser les données pourrait faire du site uen reference et un outil à part entière pour la communauté 
 - Développement du bouche-à-oreille
 
 ## Impacts attendus
