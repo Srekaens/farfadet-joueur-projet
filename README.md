@@ -14,6 +14,7 @@
 - [Personas](doc/personas.md)
 - [Design & UI](doc/design-ui.md)
 - Méthodologie Utilisée
+- [Benchmarks](doc/benchmarks.md)
 
 ### 2. Sécurité
 - Défense en Profondeur
