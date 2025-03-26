@@ -88,19 +88,13 @@
 
 - Promotion du site à travers les réseaux pour informer la communauté actuelle et leur donner un lien qu'il pourront partager afin de créer un premier engouement
 
-
-### Moyen terme
-- Communication sur les changements du site 
-- Optimisation des processus
-- Développement des fonctionnalités
-- Analyse des retours utilisateurs
-- Ajustements continus
-
 ### Long terme
-- Innovation continue
 - Expansion des services
 - Développement communautaire
-- Leadership sur le marché
+- Communication sur les changements du site 
+- Développement de nouvelles fonctionnalités
+- Analyse des retours utilisateurs
+
 
 ## Points d'attention
 
