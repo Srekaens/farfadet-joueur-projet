@@ -1,110 +1,66 @@
-# Les Exigences Fonctionnelles du Projet
+# Les Exigences du Projet Farfadet Joueur
 
-## Synthèse des exigences  
+## Exigences Fonctionnelles
 
-| Catégorie | Fonctionnalité | Priorité |  
-|-----------|---------------|---------|  
-| [Administration](#interface-dadministration) | Gestion des contenus | Haute |  
-| [Événements](#gestion-des-événements) | Organisation et suivi | Haute |  
-| [Produits](#gestion-des-produits) | Vitrine et mise en avant | Moyenne |  
-| [Interface publique](#interface-publique) | Présentation et navigation | Haute |  
-| [Communication](#communication-et-marketing) | Diffusion et promotion | Moyenne |  
+### Gestion des Événements
+- Le système doit permettre à un administrateur de créer, modifier ou supprimer un événement
+- Le système doit permettre à un administrateur de catégoriser un événement (anniversaires, conventions, à la boutique, en exterieur)
+- Le système doit permettre à un administrateur d'ajouter des images à un événement après sa publication
+- Le système doit permettre à un administrateur de configurer la récurrence d'événements réguliers
 
-## Exigences Détaillées
 
-### Interface d'administration
-- Tableau de bord intuitif avec vue d'ensemble des activités
-- Gestion des produits mis en avant :
-  - Ajout/modification/suppression des produits phares
-  - Upload et gestion des images
-  - Système de catégorisation simple
-  - Gestion des descriptions et prix
-- Gestion des événements :
-  - Création et édition d'événements
-  - Définition des capacités et horaires
-  - Gestion des catégories d'événements
-  - Consultation des demandes de participation reçues par email
+### Interface Publique
+- Le système doit permettre aux visiteurs de consulter le calendrier d'événements sans inscription
+- Le système doit permettre aux visiteurs de rechercher et filtrer les événements
+- Le système doit permettre aux visiteurs de publier une page d'evenements sur leurs réseaux 
 
-### Gestion des événements
-- Calendrier interactif des événements
-- Catégorisation (tournois, anniversaires, événements spéciaux)
-- Système de récurrence pour les événements réguliers
-- Définition des capacités
-- Lien de contact direct pour chaque événement
-- Notifications automatiques pour :
-  - Modifications d'événements
-  - Rappels de publication
+### Administration
+- Le système doit permettre aux administrateurs de gérer les droits d'accès des collaborateurs
+- Le système doit permettre aux administrateurs de gérer les catégories d'événements
+- Le système doit permettre aux administrateurs de gérer le contenu de la page d'accueil 
+- Le système doit permettre aux administrateurs d'editer la plupart des descriptions 
 
-### Gestion des produits
-- Interface de mise en avant des produits phares
-- Système de rotation des produits en vitrine
-- Gestion des images et descriptions
-- Catégorisation simple et efficace
-- Indication de disponibilité
-- Mise à jour rapide des informations
+### Communication
 
-### Interface publique
-- Page d'accueil attractive :
-  - Mise en avant des prochains événements
-  - Présentation des produits phares
-  - Actualités récentes
-- Calendrier des événements :
-  - Vue mensuelle/hebdomadaire
-  - Filtres par catégorie
-  - Détails des événements
-  - Bouton de contact direct pour chaque événement
-- Vitrine des produits :
-  - Présentation claire et attractive
-  - Filtres par catégorie
-  - Informations essentielles
-- Présentation de l'entreprise :
-  - Histoire et valeurs
-  - Équipe
-  - Localisation et contact
-  - Horaires d'ouverture
+- Le système doit envoyer des confirmations d'inscription aux événements
 
-### Communication et marketing
-- Intégration avec les réseaux sociaux
-- Partage facile des événements
-- Newsletter pour les événements à venir
-- Formulaire de contact général
-- Liens de contact directs et contextuels
 
-## Contraintes techniques
-
-### Performance
-- Temps de chargement rapide
-- Interface réactive
-- Optimisation mobile
-- Gestion efficace des images
+## Exigences Non Fonctionnelles
 
 ### Sécurité
-- Protection des données personnelles
-- Sécurisation des formulaires
-- Validation des entrées
-- Gestion des accès administrateur
+- En accord avec le RGPD, les données des utilisateurs doivent être stockées de manière sécurisée
+
+- Le système doit implémenter un système d'authentification robuste pour l'interface administrateur
+- Le système doit protéger les données sensibles avec un chiffrement approprié
+- Le système doit gérer les sessions utilisateurs de manière sécurisée
+- Le système doit protéger contre les attaques courantes (XSS, CSRF, injection SQL)
+
+
+### Performance
+- Le système doit répondre en moins de 2 secondes pour toutes les requêtes API
+- Le système doit gérer efficacement les pics de charge lors des inscriptions aux événements
+- Le système doit optimiser le chargement des images
+- Le système doit implémenter un système de cache pour les données statiques
+- Le système doit gérer efficacement les requêtes simultanées
+
+### Ergonomie
+- Le système doit offrir une interface responsive (mobile first)
+- Le système doit fournir des messages d'erreur clairs et explicites
+- Le système doit proposer une navigation intuitive
+- Le système doit s'adapter aux différents types d'écrans
+- Le système doit respecter les standards d'accessibilité WCAG 2.1 niveau AA
+
+### Disponibilité
+- Le système doit être disponible 24/7
+- Le système doit prévoir des fenêtres de maintenance planifiées
+- Le système doit implémenter un système de backup quotidien
+- Le système doit permettre une reprise d'activité rapide en cas de panne
+- Le système doit maintenir la cohérence des données en cas de défaillance
 
 ### Maintenance
-- Interface d'administration intuitive
-- Documentation utilisateur
-- Mises à jour simplifiées
-- Sauvegarde des données
-
-## Évolutions futures
-
-### Phase 1 (MVP)
-- Interface d'administration basique
-- Gestion des événements essentielle
-- Présentation des produits statique
-- Système de contact par email
-
-### Phase 2
-- Amélioration de l'interface utilisateur
-- Automatisation des tâches répétitives
-- Système de notification avancé
-- Analytics et rapports
-
-### Phase 3
-- Fonctionnalités communautaires
-- API pour intégrations futures
+- Le système doit permettre des mises à jour sans interruption de service
+- Le système doit fournir une documentation technique complète
+- Le système doit permettre le monitoring des performances
+- Le système doit faciliter la détection et la correction des erreurs
+- Le système doit permettre la sauvegarde et la restauration des données
 

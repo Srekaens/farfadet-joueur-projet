@@ -13,47 +13,50 @@
 
 ## Enjeux Détaillés
 
-### Visibilité et présence en ligne
-- Amélioration du référencement naturel
-- Centralisation des informations
-- Cohérence de la communication
-- Vitrine attractive des produits et événements
-- Rayonnement au-delà des réseaux sociaux
 
 ### Gestion et organisation
-- Simplification des processus administratifs
-- Centralisation des informations événementielles
-- Gain de temps sur les tâches répétitives
-- Meilleur suivi des activités
+
+- Interface administrateur pour gérer les differents aspects du site 
 - Organisation optimisée des événements
+- Centralisation des informations événementielles dans un calendrier
+- Organisation des activitées par catégories 
+- Gestion des evenements ( modifier , ajouter image après publication etc)
+- Mail de récupération pour récupérer les mots de passe
+
+
+### Visibilité et présence en ligne
+- Rayonnement au-delà des réseaux sociaux
+- Amélioration du référencement naturel
+- Disponibilité sans inscriptions du calendrier d'evenements
+- Vitrine attractive des services et produits du magasin
+
 
 ### Expérience utilisateur
-- Interface intuitive pour tous les utilisateurs
-- Accès simplifié aux informations
-- Navigation fluide et efficace
-- Adaptation aux différents supports
+- Interface intuitive pour naviguer entre les evenements (et en proposer ?)
+- Navigation fluide et intuitive 
+- Adaptation aux différents supports ( mobile first)
 - Contact facilité avec la boutique
+- Rapide comprehension des produits vendus par la boutique
 
 ### Enjeux commerciaux
-- Augmentation de la fréquentation
-- Diversification des sources de contact
-- Mise en valeur des produits
+- Augmentation de la fréquentation 
+- Accessibilité des informations sans passer par les reseaux sociaux
+- Mise en valeur de la boutique sur internet 
 - Développement de nouvelles opportunités
 - Fidélisation de la clientèle
+- Meilleur referencement naturel
 
 ### Enjeux techniques
+- Interface Administrateur 
 - Solution évolutive et maintenable
 - Performance et disponibilité
 - Sécurité des données
 - Facilité de mise à jour
-- Intégration future de nouvelles fonctionnalités
+- Prévoir l'intégration future de nouvelles fonctionnalités
 
 ### Enjeux communautaires
-- Création d'une communauté active
-- Engagement des utilisateurs
-- Partage d'expériences
-- Animation des événements
-- Développement du bouche-à-oreille
+- Donner un nouvel outil pour renforcer l'engagement de la communauté
+- Faire du site une reference et un outil à part entière pour la communauté 
 
 ## Impacts attendus
 
@@ -61,19 +64,20 @@
 - Meilleure visibilité en ligne
 - Simplification de la gestion des événements
 - Communication plus efficace
-- Gain de temps administratif
 
 ### Moyen terme
 - Augmentation de la fréquentation
 - Développement de la communauté
-- Optimisation des processus
-- Autonomie des gérants
+- Posséder un calendrier regroupement tout les évenements
+- Avoir une vitrine attractive qui donne envie de rejoindre la communauté et de passer par le farfadet joueur pour des evenements
+
 
 ### Long terme
 - Position renforcée sur le marché
 - Communauté active et engagée
+- Croissance du calendrier d'evenements
 - Évolution continue des services
-- Croissance durable de l'activité
+
 
 # Enjeux
 

@@ -15,67 +15,63 @@
 ## Contraintes Détaillées
 
 ### Contraintes temporelles
-- Temps limité des gérants pour la gestion du site
-- Nécessité d'une base robuste et solide
-- Formation à intégrer dans un planning chargé
-- Maintenance régulière à prévoir
+- Temps limité pour la gestion du site pour le gérant et son équipe
+- Besoin d'une interface épuré afin de gagner du temps sur la gestion des evenements
 
 ### Contraintes techniques
-- Infrastructure technique existante à respecter
-- Limites des ressources disponibles
-- Besoins de sécurité et de protection des données
-- Nécessité d'une solution évolutive
+- Nécessité d'une base robuste et évolutive 
+- Sécurisation contre les menaces externes 
 - Compatibilité avec les différents supports
+- Mobile first
+
 - Contraintes d'hébergement :
-  - Choix d'un VPS économique mais fiable
-  - Gestion de la bande passante
+  - Choix d'un VPS économique et fiable
   - Besoins en stockage pour les images
-  - Sauvegardes régulières
+
 - Base de données :
   - Choix d'une solution légère
   - Optimisation des requêtes
-  - Gestion de la montée en charge
-  - Plan de sauvegarde
+  - Sauvegardes régulières
 
 ### Contraintes financières
 - Budget d'hébergement limité :
-  - VPS : recherche d'offres < 10€/mois
-  - Base de données : privilégier les solutions intégrées
+  - VPS : recherche d'offres < 10€/mois 
+  - Base de données : privilégier les solutions gratuites
   - Nom de domaine : ~10-15€/an
+
 - Coûts de maintenance :
   - Mises à jour de sécurité
   - Sauvegardes
   - Maintenance technique
+
 - Optimisation des ressources :
   - Choix de technologies peu gourmandes
   - Gestion efficace du stockage
   - Compression des images
+  
 - Évolution des coûts :
   - Anticipation de la croissance
   - Scalabilité progressive
   - Maîtrise des coûts futurs
 
 ### Contraintes organisationnelles
-- Adaptation aux processus existants
-- Gestion du changement
-- Maintien des activités courantes
-- Formation des utilisateurs
+
 - Documentation des procédures
 
 ## Opportunités Identifiées
 
 ### Opportunités commerciales
-- Élargissement de la base client
+- Élargissement de la base client ??
 - Nouveaux canaux de communication
 - Amélioration de la visibilité
-- Développement des ventes
+- Attractivité des evenements
 - Fidélisation accrue
 
 ### Opportunités techniques
 - Modernisation des outils
 - Automatisation des processus
 - Amélioration de l'efficacité
-- Collecte de données analytiques
+- Collecte de données analytiques ?
 - Base pour évolutions futures
 - Optimisation des coûts :
   - Utilisation de technologies open source
@@ -85,29 +81,22 @@
 ### Opportunités marketing
 - Renforcement de l'image de marque
 - Meilleur référencement naturel
-- Communication multicanal
 - Engagement communautaire
 - Mesure des performances
 
 ## Stratégies d'exploitation
 
 ### Court terme
-- Mise en place des fondamentaux
-- Formation initiale des équipes
-- Premiers résultats visibles
-- Communication sur les changements
 
-### Moyen terme
-- Optimisation des processus
-- Développement des fonctionnalités
-- Analyse des retours utilisateurs
-- Ajustements continus
+- Promotion du site à travers les réseaux pour informer la communauté actuelle et leur donner un lien qu'il pourront partager afin de créer un premier engouement
 
 ### Long terme
-- Innovation continue
 - Expansion des services
 - Développement communautaire
-- Leadership sur le marché
+- Communication sur les changements du site 
+- Développement de nouvelles fonctionnalités
+- Analyse des retours utilisateurs
+
 
 ## Points d'attention
 
