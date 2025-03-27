@@ -1,13 +1,6 @@
 # Personas
 
-## Synthèse des profils utilisateurs
 
-| Persona | Rôle | Priorité |
-|---------|------|----------|
-| [Léa](#léa-la-collaboratrice-polyvalente) | Gestion de la boutique | Critique |
-| [Lucas](#lucas-ladolescent-stratège) | Joueur passionné | Élevée |
-| [Sophie](#sophie-la-maman-organisatrice) | Cliente événementiel | Élevée |
-| [David](#david-lorganisateur-dévénements) | Partenaire professionnel | Moyenne |
 
 ## Introduction aux personas
 
