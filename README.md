@@ -17,10 +17,10 @@
 - [Benchmarks](doc/benchmarks.md)
 
 ### 2. Sécurité
-- Défense en Profondeur
-- Réduction de la Surface d'Attaque
-- Politique de Moindre Privilège
-- Conformité RGPD
+- [Défense en Profondeur](/doc/defense-profondeur.md)
+- [Réduction de la Surface d'Attaque](/doc/reduction-surface-attaque.md)
+- [Politique de Moindre Privilège](/doc/politique-moindre-privilege.md)
+- [Conformité RGPD](/doc/conformite-rgpd.md)
 
 ### 3. Méthodologies de Modélisation
 
