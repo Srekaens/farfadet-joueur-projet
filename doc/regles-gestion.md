@@ -7,8 +7,9 @@
 ```
 - RG01 : Un visiteur est une personne non enregistrée dans le système
 - RG02 : Un visiteur peut consulter les événements publics
-- RG03 : Un visiteur peut s'inscrire pour devenir membre
+- RG02 : Un visiteur peut partager un evenement sur ses reseaux sociaux
 ```
+<!-- - RG03 : Un visiteur peut s'inscrire pour devenir membre -->
 
 ## Membre (Inscrit)
 ---
@@ -25,8 +26,11 @@
 ```
 
 - **RG13 :** Un membre peut consulter **tous les événements**
-- **RG14 :** Un membre peut s'inscrire à **0 ou n événements**
-- **RG15 :** Un membre peut recevoir **des notifications par email**
+- **RG13 :** Un membre peut créer son événement
+- **RG13 :** Un membre peut modifier son événement
+- **RG13 :** Un membre peut supprimer son événement
+- RG02 : Un membre peut partager un evenement sur ses reseaux sociaux
+
 
 ## Collaborateur
 ---
@@ -44,6 +48,7 @@
 - RG26 : Un collaborateur possède un statut (actif/inactif)
 - RG27 : Un collaborateur peut demander une réinitialisation de mot de passe
 - RG28 : Un collaborateur doit être créé par un administrateur
+- RG02 : Un collaborateur peut partager un evenement sur ses reseaux sociaux
 ```
 
 - **RG29 :** Un collaborateur peut créer **0 ou n événements**
@@ -67,6 +72,7 @@
 - RG43 : Un administrateur possède une date de dernière connexion
 - RG44 : Un administrateur possède un statut (actif/inactif)
 - RG45 : Un administrateur peut demander une réinitialisation de mot de passe
+- RG02 : Un administrateur peut partager un evenement sur ses reseaux sociaux
 ```
 
 - **RG46 :** Un administrateur peut créer **0 ou n événements**
