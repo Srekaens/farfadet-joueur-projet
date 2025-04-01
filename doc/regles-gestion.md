@@ -15,152 +15,151 @@
 - RG08 : Un événement possède un type (anniversaire, convention, tournoi, à domicile, en salle)
 - RG09 : Un événement possède une image (URL)
 - RG10 : Un événement possède un statut (planifié, en cours, terminé, annulé)
-- RG11 : Un événement possède une visibilité (public/privé)???
-- RG13 : Un événement peut avoir une description détaillée
+- RG11 : Un événement possède une visibilité (public/privé)
 ```
 
-- **RG15 :** Un événement est associé à **un seul type d'événement**
-- **RG16 :** Un événement peut être associé à **0 ou 1 image**
-- **RG17 :** Un événement est créé par **un seul utilisateur**
-- **RG19 :** Un événement peut être partagé sur **0 ou n réseaux sociaux** ???
+- **RG12 :** Un événement est associé à **un seul type d'événement**
+- **RG13 :** Un événement peut être associé à **0 ou n images**
+- **RG14 :** Un événement est créé par **un seul collaborateur**
 
 ## Type d'Événement
 ---
 ```
-- RG20 : Un type d'événement est représenté par un identifiant unique
-- RG21 : Un type d'événement possède un nom
-- RG22 : Un type d'événement possède une icône
-- RG23 : Un type d'événement possède une image par défaut
+- RG15 : Un type d'événement est représenté par un identifiant unique
+- RG16 : Un type d'événement possède un nom
+- RG17 : Un type d'événement possède une icône
+- RG18 : Un type d'événement possède une image par défaut
 ```
 
-- **RG24 :** Un type d'événement est attribué à **1 ou n événements** ( si un evenement est créé il a forcement un type ?)
+- **RG19 :** Un type d'événement peut contenir **0 ou n événements**
+
+## Collaborateur
+---
+```
+- RG20 : Un collaborateur est représenté par un identifiant unique
+- RG21 : Un collaborateur possède un nom
+- RG22 : Un collaborateur possède un prénom
+- RG23 : Un collaborateur possède un email
+- RG24 : Un collaborateur possède un mot de passe (hashé)
+- RG25 : Un collaborateur possède un rôle (admin, éditeur, modérateur)
+- RG26 : Un collaborateur possède une date de création
+- RG27 : Un collaborateur possède une date de dernière modification
+- RG28 : Un collaborateur possède une date de dernière connexion
+- RG29 : Un collaborateur possède un statut (actif/inactif)
+- RG30 : Un collaborateur possède une photo de profil
+- RG31 : Un collaborateur possède une description
+- RG32 : Un collaborateur possède un ordre d'affichage dans la section "Qui sommes-nous"
+```
+
+- **RG33 :** Un collaborateur peut créer **0 ou n événements**
+- **RG34 :** Un collaborateur peut modifier **0 ou n événements**
+- **RG35 :** Un collaborateur peut supprimer **0 ou n événements**
+- **RG36 :** Un collaborateur peut gérer **0 ou n autres collaborateurs** (si admin)
 
 ## Image
 ---
 ```
-- RG25 : Une image est représentée par un identifiant unique
-- RG26 : Une image possède un nom de fichier
-- RG27 : Une image possède un chemin d'accès
-- RG28 : Une image possède un format
-- RG29 : Une image possède une taille
-- RG30 : Une image possède une date d'upload
+- RG37 : Une image est représentée par un identifiant unique
+- RG38 : Une image possède un nom de fichier
+- RG39 : Une image possède un chemin d'accès
+- RG40 : Une image possède un format
+- RG41 : Une image possède une taille
+- RG42 : Une image possède une date d'upload
 ```
 
-- **RG31 :** Une image est associée à **un ou n événements**
-
-## Utilisateur
----
-```
-- RG32 : Un utilisateur est représenté par un identifiant unique
-- RG33 : Un utilisateur possède un nom
-- RG34 : Un utilisateur possède un prénom
-- RG35 : Un utilisateur possède un email
-- RG36 : Un utilisateur possède un mot de passe (hashé)
-- RG37 : Un utilisateur possède un rôle (admin/utilisateur)
-- RG38 : Un utilisateur possède une date de création
-- RG39 : Un utilisateur possède une date de dernière modification
-- RG40 : Un utilisateur possède une date de dernière connexion
-- RG41 : Un utilisateur possède un statut (actif/inactif)
-- RG42 : Un utilisateur possède un token de réinitialisation de mot de passe
-- RG43 : Un utilisateur possède une date d'expiration du token
-- RG44 : Un utilisateur possède un statut de vérification d'email
-```
-
-- **RG45 :** Un utilisateur peut créer **0 ou n événements**
-- **RG46 :** Un utilisateur peut modifier **0 ou n événements**
-- **RG47 :** Un utilisateur peut supprimer **0 ou n événements**
-- **RG48 :** Un utilisateur peut recevoir **0 ou n emails**
-- **RG49 :** Un utilisateur peut avoir **0 ou n sessions**
-- **RG50 :** Un utilisateur peut avoir **0 ou n droits** ??
-
-
-## Droit
----
-```
-- RG52 : Un droit est représenté par un identifiant unique
-- RG53 : Un droit possède un nom
-- RG54 : Un droit possède une description
-- RG55 : Un droit possède un niveau (lecture, écriture, suppression)
-- RG56 : Un droit possède une ressource (événements, utilisateurs, etc.)
-- RG57 : Un droit possède une date d'attribution
-- RG58 : Un droit possède une date d'expiration ???
-```
-
-- **RG59 :** Un droit est associé à **0 ou n utilisateurs**
-
-## Email
----
-```
-- RG60 : Un email est représenté par un identifiant unique
-- RG61 : Un email possède un destinataire
-- RG62 : Un email possède un sujet
-- RG63 : Un email possède un contenu
-- RG64 : Un email possède une date d'envoi
-- RG65 : Un email possède un statut (en attente, envoyé, échoué)
-- RG66 : Un email possède un type (notification, réinitialisation mot de passe, etc.)
-- RG67 : Un email possède un template
-- RG68 : Un email possède des variables de template ????
-```
-
-- **RG69 :** Un email est associé à **un seul utilisateur**
-
-
-## Statistique
----
-```
-- RG71 : Une statistique est représentée par un identifiant unique
-- RG72 : Une statistique possède un type (visite, partage, etc.)
-- RG73 : Une statistique possède une valeur
-- RG74 : Une statistique possède une date
-- RG75 : Une statistique possède une période (jour, semaine, mois)
-```
-
-- **RG76 :** Une statistique est associée à **un seul événement**
-
-## Page d'Accueil
----
-```
-- RG77 : La page d'accueil est représentée par un identifiant unique
-- RG78 : La page d'accueil possède un titre
-- RG79 : La page d'accueil possède une description
-- RG80 : La page d'accueil possède une image de fond
-- RG81 : La page d'accueil possède un contenu principal
-```
-
-- **RG82 :** La page d'accueil affiche **0 ou n événements** mis en avant
-
-## Calendrier
----
-```
-- RG83 : Le calendrier est représenté par un identifiant unique
-- RG84 : Le calendrier possède une vue (jour, semaine, mois)
-- RG85 : Le calendrier possède une date de début
-- RG86 : Le calendrier possède une date de fin
-```
-
-- **RG87 :** Le calendrier affiche **0 ou n événements**
-
-## Log
----
-```
-- RG88 : Un log est représenté par un identifiant unique
-- RG89 : Un log possède une action
-- RG90 : Un log possède une date
-- RG91 : Un log possède des détails
-- RG92 : Un log possède un niveau (info, warning, error)
-```
-
-- **RG93 :** Un log est associé à **un seul utilisateur**
+- **RG43 :** Une image est associée à **un seul événement**
 
 ## Session
 ---
 ```
-- RG94 : Une session est représentée par un identifiant unique
-- RG95 : Une session possède un token
-- RG96 : Une session possède une date de création
-- RG97 : Une session possède une date d'expiration
-- RG98 : Une session possède un statut (active/expirée)
+- RG44 : Une session est représentée par un identifiant unique
+- RG45 : Une session possède un token
+- RG46 : Une session possède une date de création
+- RG47 : Une session possède une date d'expiration
+- RG48 : Une session possède un statut (active/expirée)
 ```
 
-- **RG99 :** Une session est associée à **un seul utilisateur**
+- **RG49 :** Une session est associée à **un seul collaborateur**
+
+## Notification
+---
+```
+- RG50 : Une notification est représentée par un identifiant unique
+- RG51 : Une notification possède un type (email, push, in-app)
+- RG52 : Une notification possède un titre
+- RG53 : Une notification possède un contenu
+- RG54 : Une notification possède une date d'envoi
+- RG55 : Une notification possède un statut (en attente, envoyée, échouée)
+- RG56 : Une notification possède une priorité
+- RG57 : Une notification possède une date de lecture
+```
+
+- **RG58 :** Une notification est associée à **un seul utilisateur**
+- **RG59 :** Une notification peut être associée à **un seul événement**
+
+## Commentaire
+---
+```
+- RG60 : Un commentaire est représenté par un identifiant unique
+- RG61 : Un commentaire possède un contenu
+- RG62 : Un commentaire possède une date de création
+- RG63 : Un commentaire possède une date de modification
+- RG64 : Un commentaire possède un statut (actif/supprimé)
+```
+
+- **RG65 :** Un commentaire est associé à **un seul utilisateur**
+- **RG66 :** Un commentaire est associé à **un seul événement**
+
+## Pièce Jointe
+---
+```
+- RG67 : Une pièce jointe est représentée par un identifiant unique
+- RG68 : Une pièce jointe possède un nom de fichier
+- RG69 : Une pièce jointe possède un type MIME
+- RG70 : Une pièce jointe possède une taille
+- RG71 : Une pièce jointe possède une URL de téléchargement
+- RG72 : Une pièce jointe possède une date d'upload
+```
+
+- **RG73 :** Une pièce jointe est associée à **un seul événement**
+
+## Rappel
+---
+```
+- RG74 : Un rappel est représenté par un identifiant unique
+- RG75 : Un rappel possède un délai (avant l'événement)
+- RG85 : Un rappel est représenté par un identifiant unique
+- RG86 : Un rappel possède un délai (avant l'événement)
+- RG87 : Un rappel possède un type (email, push, in-app)
+- RG88 : Un rappel possède un statut (actif/inactif)
+- RG89 : Un rappel possède une date d'envoi
+```
+
+- **RG90 :** Un rappel est associé à **un seul événement**
+- **RG91 :** Un rappel est associé à **0 ou n utilisateurs**
+
+## Préférence Utilisateur
+---
+```
+- RG92 : Une préférence est représentée par un identifiant unique
+- RG93 : Une préférence possède un type (notification, affichage, langue)
+- RG94 : Une préférence possède une valeur
+- RG95 : Une préférence possède une date de modification
+```
+
+- **RG96 :** Une préférence est associée à **un seul utilisateur**
+
+## Session
+---
+```
+- RG97 : Une session est représentée par un identifiant unique
+- RG98 : Une session possède un token
+- RG99 : Une session possède une date de création
+- RG100 : Une session possède une date d'expiration
+- RG101 : Une session possède un statut (active/expirée)
+- RG102 : Une session possède une adresse IP
+- RG103 : Une session possède un user-agent
+```
+
+- **RG104 :** Une session est associée à **un seul utilisateur**
 

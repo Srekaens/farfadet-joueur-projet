@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-La défense en profondeur est une approche de sécurité qui implémente plusieurs couches de protection pour sécuriser l'application. Cette stratégie est particulièrement importante pour le projet Farfadet Joueur, qui gère des données d'événements et d'utilisateurs.
+La défense en profondeur est une approche de sécurité qui implémente plusieurs couches de protection pour sécuriser l'application. Chaque couche contribue à la sécurité globale, même si une couche est compromise. Cette stratégie est particulièrement importante pour le projet Farfadet Joueur, qui gère des données d'événements et d'utilisateurs.
 
 ## Couches de Protection
 
@@ -134,6 +134,138 @@ export const protectionMiddleware: FastifyPluginAsync = async (fastify) => {
       request.body = sanitizeInput(request.body)
     }
   })
+}
+```
+
+### Validation des Données avec Zod
+
+Zod est une bibliothèque de validation de schéma qui permet de :
+- Valider les données entrantes
+- Garantir la sécurité des types
+- Prévenir les injections et les attaques par manipulation de données
+
+Exemple d'utilisation de Zod pour la validation des événements :
+
+```typescript
+import { z } from 'zod';
+
+// Schéma de validation pour un événement
+const EventSchema = z.object({
+  title: z.string()
+    .min(3, "Le titre doit contenir au moins 3 caractères")
+    .max(100, "Le titre ne doit pas dépasser 100 caractères"),
+  description: z.string()
+    .min(10, "La description doit contenir au moins 10 caractères")
+    .max(1000, "La description ne doit pas dépasser 1000 caractères"),
+  date: z.date()
+    .min(new Date(), "La date doit être dans le futur"),
+  location: z.string()
+    .min(5, "Le lieu doit contenir au moins 5 caractères"),
+  type: z.enum(['birthday', 'convention', 'tournament', 'home', 'venue']),
+  startTime: z.string().optional(),
+  endTime: z.string().optional(),
+  imageUrl: z.string().url().optional(),
+  maxParticipants: z.number().int().positive().optional()
+});
+
+// Utilisation dans une route Fastify
+app.post('/api/events', async (request, reply) => {
+  try {
+    // Validation des données entrantes
+    const validatedData = EventSchema.parse(request.body);
+    
+    // Si la validation réussit, les données sont sûres
+    const event = await createEvent(validatedData);
+    
+    return reply.send(event);
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      // Gestion des erreurs de validation
+      return reply.status(400).send({
+        error: "Données invalides",
+        details: error.errors
+      });
+    }
+    throw error;
+  }
+});
+```
+
+### Middleware de Sécurité
+
+```typescript
+import fastify from 'fastify';
+import helmet from '@fastify/helmet';
+import cors from '@fastify/cors';
+import rateLimit from '@fastify/rate-limit';
+
+const app = fastify();
+
+// Configuration des en-têtes de sécurité
+app.register(helmet, {
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      imgSrc: ["'self'", "data:", "https:"],
+      scriptSrc: ["'self'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+    },
+  },
+});
+
+// Configuration CORS
+app.register(cors, {
+  origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+});
+
+// Rate limiting
+app.register(rateLimit, {
+  max: 100,
+  timeWindow: '1 minute',
+});
+```
+
+### Protection contre les Injections SQL
+
+```typescript
+import { Pool } from 'pg';
+
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+});
+
+// Requête sécurisée avec des paramètres
+async function getEventById(id: string) {
+  const query = 'SELECT * FROM events WHERE id = $1';
+  const values = [id];
+  
+  const result = await pool.query(query, values);
+  return result.rows[0];
+}
+
+// Requête sécurisée pour la création d'événement
+async function createEvent(event: Event) {
+  const query = `
+    INSERT INTO events (title, description, date, location, type, start_time, end_time, image_url)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+    RETURNING *
+  `;
+  
+  const values = [
+    event.title,
+    event.description,
+    event.date,
+    event.location,
+    event.type,
+    event.startTime,
+    event.endTime,
+    event.imageUrl
+  ];
+  
+  const result = await pool.query(query, values);
+  return result.rows[0];
 }
 ```
 
