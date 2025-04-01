@@ -9,12 +9,10 @@
 - RG02 : Un événement possède un titre
 - RG03 : Un événement possède une description
 - RG04 : Un événement possède une date
-- RG05 : Un événement peut avoir une heure de début (optionnel)
-- RG06 : Un événement peut avoir une heure de fin (optionnel)
+- RG05 : Un événement peut avoir une heure de début 
 - RG07 : Un événement possède un lieu
 - RG08 : Un événement possède un type (anniversaire, convention, tournoi, à domicile, en salle)
 - RG09 : Un événement possède une image (URL)
-- RG10 : Un événement possède un statut (planifié, en cours, terminé, annulé)
 - RG11 : Un événement possède une visibilité (public/privé)
 ```
 
