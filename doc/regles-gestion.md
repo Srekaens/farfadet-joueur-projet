@@ -40,14 +40,21 @@
 - RG23 : Un collaborateur possède un email
 - RG24 : Un collaborateur possède un mot de passe (hashé)
 - RG25 : Un collaborateur possède un rôle (admin, éditeur, modérateur)
-- RG26 : Un collaborateur possède une date de création
+- RG29 : Un collaborateur possède un statut (actif/inactif)
+- RG29 : Un collaborateur possède une photo de profil (prévoir image par defaut avec chapeau du farfadet)
+
+
+```
+
+<!-- - RG26 : Un collaborateur possède une date de création
 - RG27 : Un collaborateur possède une date de dernière modification
 - RG28 : Un collaborateur possède une date de dernière connexion
-- RG29 : Un collaborateur possède un statut (actif/inactif)
 - RG30 : Un collaborateur possède une photo de profil
 - RG31 : Un collaborateur possède une description
 - RG32 : Un collaborateur possède un ordre d'affichage dans la section "Qui sommes-nous"
-```
+ -->
+
+
 
 - **RG33 :** Un collaborateur peut créer **0 ou n événements**
 - **RG34 :** Un collaborateur peut modifier **0 ou n événements**
