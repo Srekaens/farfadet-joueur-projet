@@ -31,7 +31,7 @@
 
 - **RG19 :** Un type d'événement peut contenir **0 ou n événements**
 
-## Collaborateur
+## Utilisateur
 ---
 ```
 - RG20 : Un collaborateur est représenté par un identifiant unique
@@ -86,73 +86,6 @@
 
 - **RG49 :** Une session est associée à **un seul collaborateur**
 
-## Notification
----
-```
-- RG50 : Une notification est représentée par un identifiant unique
-- RG51 : Une notification possède un type (email, push, in-app)
-- RG52 : Une notification possède un titre
-- RG53 : Une notification possède un contenu
-- RG54 : Une notification possède une date d'envoi
-- RG55 : Une notification possède un statut (en attente, envoyée, échouée)
-- RG56 : Une notification possède une priorité
-- RG57 : Une notification possède une date de lecture
-```
-
-- **RG58 :** Une notification est associée à **un seul utilisateur**
-- **RG59 :** Une notification peut être associée à **un seul événement**
-
-## Commentaire
----
-```
-- RG60 : Un commentaire est représenté par un identifiant unique
-- RG61 : Un commentaire possède un contenu
-- RG62 : Un commentaire possède une date de création
-- RG63 : Un commentaire possède une date de modification
-- RG64 : Un commentaire possède un statut (actif/supprimé)
-```
-
-- **RG65 :** Un commentaire est associé à **un seul utilisateur**
-- **RG66 :** Un commentaire est associé à **un seul événement**
-
-## Pièce Jointe
----
-```
-- RG67 : Une pièce jointe est représentée par un identifiant unique
-- RG68 : Une pièce jointe possède un nom de fichier
-- RG69 : Une pièce jointe possède un type MIME
-- RG70 : Une pièce jointe possède une taille
-- RG71 : Une pièce jointe possède une URL de téléchargement
-- RG72 : Une pièce jointe possède une date d'upload
-```
-
-- **RG73 :** Une pièce jointe est associée à **un seul événement**
-
-## Rappel
----
-```
-- RG74 : Un rappel est représenté par un identifiant unique
-- RG75 : Un rappel possède un délai (avant l'événement)
-- RG85 : Un rappel est représenté par un identifiant unique
-- RG86 : Un rappel possède un délai (avant l'événement)
-- RG87 : Un rappel possède un type (email, push, in-app)
-- RG88 : Un rappel possède un statut (actif/inactif)
-- RG89 : Un rappel possède une date d'envoi
-```
-
-- **RG90 :** Un rappel est associé à **un seul événement**
-- **RG91 :** Un rappel est associé à **0 ou n utilisateurs**
-
-## Préférence Utilisateur
----
-```
-- RG92 : Une préférence est représentée par un identifiant unique
-- RG93 : Une préférence possède un type (notification, affichage, langue)
-- RG94 : Une préférence possède une valeur
-- RG95 : Une préférence possède une date de modification
-```
-
-- **RG96 :** Une préférence est associée à **un seul utilisateur**
 
 ## Session
 ---
