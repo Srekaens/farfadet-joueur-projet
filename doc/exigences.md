@@ -6,7 +6,7 @@
 - Le système doit permettre à un administrateur de créer, modifier ou supprimer un événement
 - Le système doit permettre à un administrateur de catégoriser un événement (anniversaires, conventions, à la boutique, en exterieur)
 - Le système doit permettre à un administrateur d'ajouter des images à un événement après sa publication
-- Le système doit permettre à un administrateur de configurer la récurrence d'événements réguliers
+<!-- - Le système doit permettre à un administrateur de configurer la récurrence d'événements réguliers -->
 
 
 ### Interface Publique
@@ -20,16 +20,11 @@
 - Le système doit permettre aux administrateurs de gérer le contenu de la page d'accueil 
 - Le système doit permettre aux administrateurs d'editer la plupart des descriptions 
 
-### Communication
-
-- Le système doit envoyer des confirmations d'inscription aux événements
-
 
 ## Exigences Non Fonctionnelles
 
 ### Sécurité
 - En accord avec le RGPD, les données des utilisateurs doivent être stockées de manière sécurisée
-
 - Le système doit implémenter un système d'authentification robuste pour l'interface administrateur
 - Le système doit protéger les données sensibles avec un chiffrement approprié
 - Le système doit gérer les sessions utilisateurs de manière sécurisée
