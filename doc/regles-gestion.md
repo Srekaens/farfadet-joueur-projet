@@ -9,10 +9,12 @@
 - RG02 : Un événement possède un titre
 - RG03 : Un événement possède une description
 - RG04 : Un événement possède une date
-- RG05 : Un événement peut avoir une heure de début 
+- RG05 : Un événement peut avoir une heure de début (optionnel)
+- RG06 : Un événement peut avoir une heure de fin (optionnel)
 - RG07 : Un événement possède un lieu
 - RG08 : Un événement possède un type (anniversaire, convention, tournoi, à domicile, en salle)
-- RG09 : Un événement possède une image (URL)
+- RG09 : Un événement peut avoir une image (optionnel)
+- RG10 : Un événement possède un statut (planifié, en cours, terminé, annulé)
 - RG11 : Un événement possède une visibilité (public/privé)
 ```
 
@@ -26,78 +28,85 @@
 - RG15 : Un type d'événement est représenté par un identifiant unique
 - RG16 : Un type d'événement possède un nom
 - RG17 : Un type d'événement possède une icône
-- RG18 : Un type d'événement possède une image par défaut
 ```
 
-- **RG19 :** Un type d'événement peut contenir **0 ou n événements**
+- **RG18 :** Un type d'événement peut contenir **0 ou n événements**
+
+## Collaborateur
+---
+```
+- RG19 : Un collaborateur est représenté par un identifiant unique
+- RG20 : Un collaborateur possède un nom
+- RG21 : Un collaborateur possède un prénom
+- RG22 : Un collaborateur possède un email
+- RG23 : Un collaborateur possède un mot de passe (hashé)
+- RG24 : Un collaborateur possède un rôle (admin, éditeur, modérateur)
+- RG25 : Un collaborateur possède un statut (actif/inactif)
+- RG26 : Un collaborateur possède une photo de profil
+- RG27 : Un collaborateur possède une description
+- RG28 : Un collaborateur possède un ordre d'affichage dans la section "Qui sommes-nous"
+```
+
+- **RG29 :** Un collaborateur peut créer **0 ou n événements**
+- **RG30 :** Un collaborateur peut modifier **0 ou n événements**
+- **RG31 :** Un collaborateur peut supprimer **0 ou n événements**
+- **RG32 :** Un collaborateur peut gérer **0 ou n autres collaborateurs** (si admin)
+- **RG33 :** Un collaborateur peut recevoir **0 ou n emails**
 
 ## Utilisateur
 ---
 ```
-- RG20 : Un collaborateur est représenté par un identifiant unique
-- RG21 : Un collaborateur possède un nom
-- RG22 : Un collaborateur possède un prénom
-- RG23 : Un collaborateur possède un email
-- RG24 : Un collaborateur possède un mot de passe (hashé)
-- RG25 : Un collaborateur possède un rôle (admin, éditeur, modérateur)
-- RG29 : Un collaborateur possède un statut (actif/inactif)
-- RG29 : Un collaborateur possède une photo de profil (prévoir image par defaut avec chapeau du farfadet)
-
-
+- RG34 : Un utilisateur est représenté par un identifiant unique
+- RG35 : Un utilisateur possède un nom
+- RG36 : Un utilisateur possède un prénom
+- RG37 : Un utilisateur possède un email
+- RG38 : Un utilisateur possède un statut (actif/inactif)
+- RG39 : Un utilisateur possède une date de création
+- RG40 : Un utilisateur possède une date de dernière connexion
 ```
 
-<!-- - RG26 : Un collaborateur possède une date de création
-- RG27 : Un collaborateur possède une date de dernière modification
-- RG28 : Un collaborateur possède une date de dernière connexion
-- RG30 : Un collaborateur possède une photo de profil
-- RG31 : Un collaborateur possède une description
-- RG32 : Un collaborateur possède un ordre d'affichage dans la section "Qui sommes-nous"
- -->
-
-
-
-- **RG33 :** Un collaborateur peut créer **0 ou n événements**
-- **RG34 :** Un collaborateur peut modifier **0 ou n événements**
-- **RG35 :** Un collaborateur peut supprimer **0 ou n événements**
-- **RG36 :** Un collaborateur peut gérer **0 ou n autres collaborateurs** (si admin)
+- **RG41 :** Un utilisateur peut s'inscrire à **0 ou n événements**
+- **RG42 :** Un utilisateur peut recevoir **0 ou n emails**
 
 ## Image
 ---
 ```
-- RG37 : Une image est représentée par un identifiant unique
-- RG38 : Une image possède un nom de fichier
-- RG39 : Une image possède un chemin d'accès
-- RG40 : Une image possède un format
-- RG41 : Une image possède une taille
-- RG42 : Une image possède une date d'upload
+- RG43 : Une image est représentée par un identifiant unique
+- RG44 : Une image possède un nom de fichier
+- RG45 : Une image possède un chemin d'accès
+- RG46 : Une image possède un format
+- RG47 : Une image possède une taille
+- RG48 : Une image possède une date d'upload
 ```
 
-- **RG43 :** Une image est associée à **un seul événement**
+- **RG49 :** Une image est associée à **un seul événement**
 
 ## Session
 ---
 ```
-- RG44 : Une session est représentée par un identifiant unique
-- RG45 : Une session possède un token
-- RG46 : Une session possède une date de création
-- RG47 : Une session possède une date d'expiration
-- RG48 : Une session possède un statut (active/expirée)
+- RG50 : Une session est représentée par un identifiant unique
+- RG51 : Une session possède un token
+- RG52 : Une session possède une date de création
+- RG53 : Une session possède une date d'expiration
+- RG54 : Une session possède un statut (active/expirée)
 ```
 
-- **RG49 :** Une session est associée à **un seul collaborateur**
+- **RG55 :** Une session est associée à **un seul collaborateur**
 
-
-## Session
+## Email
 ---
 ```
-- RG97 : Une session est représentée par un identifiant unique
-- RG98 : Une session possède un token
-- RG99 : Une session possède une date de création
-- RG100 : Une session possède une date d'expiration
-- RG101 : Une session possède un statut (active/expirée)
-- RG102 : Une session possède une adresse IP
-- RG103 : Une session possède un user-agent
+- RG56 : Un email est représenté par un identifiant unique
+- RG57 : Un email possède un destinataire
+- RG58 : Un email possède un sujet
+- RG59 : Un email possède un contenu
+- RG60 : Un email possède une date d'envoi
+- RG61 : Un email possède un statut (en attente, envoyé, échoué)
+- RG62 : Un email possède un type (notification, réinitialisation mot de passe, etc.)
+- RG63 : Un email possède un template
+- RG64 : Un email possède des variables de template
 ```
 
-- **RG104 :** Une session est associée à **un seul utilisateur**
+- **RG65 :** Un email est associé à **un seul utilisateur ou collaborateur**
+- **RG66 :** Un email peut être associé à **un seul événement** (optionnel)
 
