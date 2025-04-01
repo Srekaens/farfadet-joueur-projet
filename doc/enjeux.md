@@ -99,9 +99,7 @@ Un site web dédié permet :
 - D'assurer une présence continue et accessible des événements, même en dehors des réseaux sociaux.  
 - De garantir une communication plus professionnelle et crédible pour la boutique avec un site dédié à l'activité du farfadet joueur.  
 - De structurer l'information avec un calendrier interactif 
-```
-et une gestion simplifiée des réservations ?   
-```
+
 - D'améliorer la référencement naturel (SEO), augmentant ainsi la visibilité des événements sur Google.  
 
 Les réseaux sociaux, quant à eux, restent indispensables pour générer de l'engagement et toucher une audience spontanée. La meilleure approche consiste donc à les utiliser pour attirer du trafic vers le site, où toutes les informations sont clairement présentées.  
@@ -113,13 +111,8 @@ Les réseaux sociaux, quant à eux, restent indispensables pour générer de l'e
 Un site dédié aux événements offre des possibilités que les réseaux sociaux ne permettent pas :  
 - Un calendrier interactif où les visiteurs peuvent voir en un coup d'œil tous les événements à venir.  
 - Une page événement détaillée avec descriptions, images, 
-```
-et éventuellement un formulaire d'inscription ou de réservation.
-```  
+
 - Une mise en avant cohérente et esthétique des événements, sans être tributaire des algorithmes des réseaux sociaux.  
-- Un outil de suivi et d'analyse permettant d'évaluer quelles annonces fonctionnent le mieux.  
-```
-à voir si le dashboard le permettra
-```
+
 
 En offrant un espace structuré et professionnel, la boutique se démarque et renforce sa crédibilité tout en facilitant l'accès aux informations pour tous ses clients, qu'ils soient actifs sur les réseaux sociaux ou non.  
