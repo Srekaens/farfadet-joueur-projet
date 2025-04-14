@@ -93,8 +93,8 @@
 - RG54 : Un participant possède un email (optionnel)
 - RG55 : Un participant possède un numéro de téléphone (optionnel)
 - RG56 : Un participant possède une date d'inscription
-- RG57 : Un participant possède un statut (inscrit, confirmé, annulé)
 ```
+<!-- - RG57 : Un participant possède un statut (inscrit, confirmé, annulé) -->
 
 - **RG58 :** Un participant **peut être associé à 0 ou n événements**
 - **RG59 :** Un participant **peut avoir 0 ou n accompagnants**
