@@ -2,6 +2,15 @@
 ----------------------REGLES DE GESTION----------------------
 -------------------------------------------------------------
 
+## Visiteur
+---
+```
+- RG01 : Un visiteur est identifié par un identifiant unique
+```
+
+- **RG02 :** Un visiteur **peut devenir 0 ou n client**
+
+---
 
 ## Collaborateur
 ---
@@ -71,50 +80,36 @@
 
 ---
 
-## Participant
+## Client
 ---
 ```
-- RG51 : Un participant est identifié par un identifiant unique
-- RG52 : Un participant possède un nom
-- RG53 : Un participant possède un prénom
-- RG54 : Un participant possède un email
-- RG55 : Un participant possède un numéro de téléphone (optionnel)
-- RG56 : Un participant possède une date d'inscription
+- RG51 : Un client est identifié par un identifiant unique
+- RG52 : Un client possède un nom
+- RG53 : Un client possède un prénom
+- RG54 : Un client possède un email
+- RG55 : Un client possède un numéro de téléphone (optionnel)
+- RG56 : Un client possède une date d'inscription
 ```
-<!-- - RG57 : Un participant possède un statut (inscrit, confirmé, annulé) -->
+<!-- - RG57 : Un client possède un statut (inscrit, confirmé, annulé) -->
 
-- **RG58 :** Un participant **peut être associé à 0 ou n événements**
-- **RG59 :** Un participant **peut avoir 0 ou n accompagnants**
-- **RG60 :** Un participant **peut être un visiteur**
+- **RG58 :** Un client **peut être associé à 0 ou n événements**
+- **RG59 :** Un client **peut être un visiteur**
 
 ---
-
-<!-- ## Accompagnant
----
-```
-- RG61 : Un accompagnant est identifié par un identifiant unique
-- RG62 : Un accompagnant possède un nom
-- RG63 : Un accompagnant possède un prénom
-- RG64 : Un accompagnant possède un âge (optionnel)
-```
-
-- **RG65 :** Un accompagnant **est associé à un seul participant**
-
---- -->
 
 ## Réservation
 ---
 ```
 - RG66 : Une réservation est identifiée par un identifiant unique
 - RG67 : Une réservation possède une date de création
-- RG69 : Une réservation possède un nombre total de participants (participant + accompagnants)
+- RG69 : Une réservation possède un nombre de participants
 - RG70 : Une réservation peut avoir un commentaire (optionnel)
 ```
 <!-- - RG71 : Une réservation peut avoir un mode de réservation (en ligne, par téléphone) -->
 <!-- - RG68 : Une réservation possède un statut (en attente, confirmée, annulée) -->
 
 - **RG75 :** Une réservation **est associée à un seul événement**
-- **RG76 :** Une réservation **est associée à un seul participant**
+- **RG76 :** Une réservation **est associée à un seul client**
 - **RG77 :** Une réservation **peut être gérée par un seul collaborateur ou administrateur**
 - **RG78 :** Une réservation **peut être confirmée par un seul collaborateur ou administrateur**
 
@@ -133,3 +128,18 @@
 ```
 
 - **RG86 :** Une image **est associée à un seul événement**
+
+## Email
+---
+```
+- RG87 : Un email est identifié par un identifiant unique
+- RG89 : Un email possède un sujet
+- RG90 : Un email possède un contenu HTML
+- RG91 : Un email possède un contenu texte
+- RG92 : Un email possède une date d'envoi
+- RG94 : Un email possède un destinataire
+```
+<!-- - RG93 : Un email possède un statut (en attente, envoyé, échoué) -->
+<!-- - RG88 : Un email possède un type (confirmation de réservation, rappel, annulation) -->
+
+- **RG95 :** Un email **peut être associé à une seule réservation**
