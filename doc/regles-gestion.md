@@ -77,7 +77,7 @@
 - RG51 : Un participant est identifié par un identifiant unique
 - RG52 : Un participant possède un nom
 - RG53 : Un participant possède un prénom
-- RG54 : Un participant possède un email (optionnel)
+- RG54 : Un participant possède un email
 - RG55 : Un participant possède un numéro de téléphone (optionnel)
 - RG56 : Un participant possède une date d'inscription
 ```
@@ -89,7 +89,7 @@
 
 ---
 
-## Accompagnant
+<!-- ## Accompagnant
 ---
 ```
 - RG61 : Un accompagnant est identifié par un identifiant unique
@@ -100,7 +100,7 @@
 
 - **RG65 :** Un accompagnant **est associé à un seul participant**
 
----
+--- -->
 
 ## Réservation
 ---
