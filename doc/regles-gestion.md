@@ -89,8 +89,8 @@
 - RG54 : Un client possède un email
 - RG55 : Un client possède un numéro de téléphone (optionnel)
 - RG56 : Un client possède une date d'inscription
+- RG57 : Un client possède un consentement RGPD pour le traitement des données de réservation
 ```
-<!-- - RG57 : Un client possède un statut (inscrit, confirmé, annulé) -->
 
 - **RG58 :** Un client **peut être associé à 0 ou n événements**
 - **RG59 :** Un client **peut être un visiteur**
@@ -104,9 +104,11 @@
 - RG67 : Une réservation possède une date de création
 - RG69 : Une réservation possède un nombre de participants
 - RG70 : Une réservation peut avoir un commentaire (optionnel)
+- RG71 : Une réservation possède un statut (en attente de confirmation, confirmée, annulée, expirée)
+- RG72 : Une réservation possède une date d'expiration (24h après la création)
+- RG73 : Une réservation possède une date de confirmation (optionnel)
+- RG74 : Une réservation possède un token de confirmation unique
 ```
-<!-- - RG71 : Une réservation peut avoir un mode de réservation (en ligne, par téléphone) -->
-<!-- - RG68 : Une réservation possède un statut (en attente, confirmée, annulée) -->
 
 - **RG75 :** Une réservation **est associée à un seul événement**
 - **RG76 :** Une réservation **est associée à un seul client**
@@ -129,6 +131,8 @@
 
 - **RG86 :** Une image **est associée à un seul événement**
 
+---
+
 ## Email
 ---
 ```
@@ -139,7 +143,5 @@
 - RG92 : Un email possède une date d'envoi
 - RG94 : Un email possède un destinataire
 ```
-<!-- - RG93 : Un email possède un statut (en attente, envoyé, échoué) -->
-<!-- - RG88 : Un email possède un type (confirmation de réservation, rappel, annulation) -->
 
 - **RG95 :** Un email **peut être associé à une seule réservation**
