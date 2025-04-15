@@ -2,15 +2,6 @@
 ----------------------REGLES DE GESTION----------------------
 -------------------------------------------------------------
 
-## Visiteur
----
-```
-- RG01 : Un visiteur est identifié par un identifiant unique
-```
-
-- **RG02 :** Un visiteur **peut devenir 0 ou n participant**
-
----
 
 ## Collaborateur
 ---
@@ -19,14 +10,13 @@
 - RG04 : Un collaborateur possède un nom
 - RG05 : Un collaborateur possède un prénom
 - RG06 : Un collaborateur possède un email
-- RG07 : Un collaborateur possède un mot de passe (hashé)
+- RG07 : Un collaborateur possède un mot de passe 
 - RG08 : Un collaborateur possède une photo de profil (optionnel)
 - RG09 : Un collaborateur possède une description (optionnel)
-- RG10 : Un collaborateur possède un ordre d'affichage dans la section "Qui sommes-nous" (optionnel)
 - RG11 : Un collaborateur possède une date de création
-- RG12 : Un collaborateur possède une date de dernière connexion
-- RG13 : Un collaborateur possède un statut (actif/inactif)
 ```
+<!-- - RG13 : Un collaborateur possède un statut (actif/inactif) -->
+<!-- - RG12 : Un collaborateur possède une date de dernière connexion -->
 
 - **RG14 :** Un collaborateur **peut créer 0 ou n événements**
 - **RG15 :** Un collaborateur **peut gérer 0 ou n réservations**
