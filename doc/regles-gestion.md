@@ -107,14 +107,11 @@
 ```
 - RG66 : Une réservation est identifiée par un identifiant unique
 - RG67 : Une réservation possède une date de création
-- RG68 : Une réservation possède un statut (en attente, confirmée, annulée)
 - RG69 : Une réservation possède un nombre total de participants (participant + accompagnants)
 - RG70 : Une réservation peut avoir un commentaire (optionnel)
-- RG71 : Une réservation peut avoir un mode de réservation (en ligne, par téléphone)
-- RG72 : Une réservation peut avoir un montant payé (optionnel)
-- RG73 : Une réservation peut avoir une date de paiement (optionnel)
-- RG74 : Une réservation peut avoir un mode de paiement (espèces, carte bancaire, virement, etc.)
 ```
+<!-- - RG71 : Une réservation peut avoir un mode de réservation (en ligne, par téléphone) -->
+<!-- - RG68 : Une réservation possède un statut (en attente, confirmée, annulée) -->
 
 - **RG75 :** Une réservation **est associée à un seul événement**
 - **RG76 :** Une réservation **est associée à un seul participant**
