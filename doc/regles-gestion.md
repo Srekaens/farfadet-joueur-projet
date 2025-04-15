@@ -30,14 +30,14 @@
 - RG17 : Un administrateur possède un nom
 - RG18 : Un administrateur possède un prénom
 - RG19 : Un administrateur possède un email
-- RG20 : Un administrateur possède un mot de passe (hashé)
+- RG20 : Un administrateur possède un mot de passe
 - RG21 : Un administrateur possède une photo de profil (optionnel)
 - RG22 : Un administrateur possède une description (optionnel)
 - RG23 : Un administrateur possède un ordre d'affichage dans la section "Qui sommes-nous" (optionnel)
 - RG24 : Un administrateur possède une date de création
-- RG25 : Un administrateur possède une date de dernière connexion
-- RG26 : Un administrateur possède un statut (actif/inactif)
 ```
+<!-- - RG25 : Un administrateur possède une date de dernière connexion
+- RG26 : Un administrateur possède un statut (actif/inactif) -->
 
 - **RG27 :** Un administrateur **peut créer 0 ou n événements**
 - **RG28 :** Un administrateur **peut gérer 0 ou n collaborateurs**
