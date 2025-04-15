@@ -59,14 +59,11 @@
 - RG38 : Un événement possède une icône pour son type
 - RG39 : Un événement possède une couleur pour son type
 - RG40 : Un événement possède un statut (planifié, en cours, terminé, annulé)
-- RG41 : Un événement possède une visibilité (public/privé)
-- RG42 : Un événement peut être récurrent (optionnel)
-- RG43 : Un événement peut avoir une fréquence de récurrence (quotidienne, hebdomadaire, mensuelle, annuelle)
-- RG44 : Un événement peut avoir une date de fin de récurrence
 - RG45 : Un événement peut avoir un nombre maximum de participants
 - RG46 : Un événement peut avoir un prix (optionnel)
-- RG47 : Un événement peut avoir des modalités de réservation (en ligne, par téléphone, les deux)
 ```
+<!-- - RG42 : Un événement peut être récurrent (optionnel)
+- RG43 : Un événement peut avoir une fréquence de récurrence (quotidienne, hebdomadaire, mensuelle, annuelle) -->
 
 - **RG48 :** Un événement **peut être associé à 0 ou n images**
 - **RG49 :** Un événement **est créé par un seul collaborateur ou administrateur**
