@@ -120,7 +120,6 @@
 - RG82 : Une image possède un format
 - RG83 : Une image possède une taille
 - RG84 : Une image possède une date d'upload
-- RG85 : Une image possède un type (photo, bannière, logo)
 ```
 
 - **RG86 :** Une image **est associée à un seul événement**
