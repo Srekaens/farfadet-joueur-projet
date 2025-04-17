@@ -21,7 +21,6 @@
 - RG06 : Un collaborateur possède un email
 - RG07 : Un collaborateur possède un mot de passe 
 - RG08 : Un collaborateur possède une photo de profil (optionnel)
-- RG09 : Un collaborateur possède une description (optionnel)
 - RG11 : Un collaborateur possède une date de création
 ```
 <!-- - RG13 : Un collaborateur possède un statut (actif/inactif) -->
