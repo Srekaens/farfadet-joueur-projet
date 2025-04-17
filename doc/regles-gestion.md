@@ -130,11 +130,11 @@
 ---
 ```
 - RG87 : Un email est identifié par un identifiant unique
-- RG89 : Un email possède un sujet
-- RG90 : Un email possède un contenu HTML
+- RG94 : Un email possède un destinataire
+- RG89 : Un email possède un titre
+- RG90 : Un email possède un contenu HTML????
 - RG91 : Un email possède un contenu texte
 - RG92 : Un email possède une date d'envoi
-- RG94 : Un email possède un destinataire
 ```
 
 - **RG95 :** Un email **peut être associé à une seule réservation**
