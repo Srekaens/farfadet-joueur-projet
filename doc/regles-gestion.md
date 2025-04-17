@@ -59,14 +59,11 @@
 - RG32 : Un événement possède une description
 - RG33 : Un événement possède une date
 - RG34 : Un événement peut avoir une heure de début (optionnel)
-- RG35 : Un événement peut avoir une heure de fin (optionnel)
 - RG36 : Un événement possède un lieu
 - RG37 : Un événement possède un type (anniversaire, convention, tournoi, à domicile, en salle)
 - RG38 : Un événement possède une icône pour son type
-- RG39 : Un événement possède une couleur pour son type
 - RG40 : Un événement possède un statut (planifié, en cours, terminé, annulé)
-- RG45 : Un événement peut avoir un nombre maximum de participants
-- RG46 : Un événement peut avoir un prix (optionnel)
+- RG45 : Un événement peut avoir un nombre maximum de participants ??
 ```
 <!-- - RG42 : Un événement peut être récurrent (optionnel)
 - RG43 : Un événement peut avoir une fréquence de récurrence (quotidienne, hebdomadaire, mensuelle, annuelle) -->
